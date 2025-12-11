@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesPosting.Api", "SalesPosting.Api\SalesPosting.Api.csproj", "{7093551B-C02F-479A-9EA1-F5DEB7584C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesPosting.Data", "SalesPosting.Data\SalesPosting.Data.csproj", "{124079B2-AB80-41BC-A3E6-4216D5BF221D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesPosting.Worker", "SalesPosting.Worker\SalesPosting.Worker.csproj", "{D53B0348-746A-45F5-BD57-1AB8DF7F3BDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instruction", "Instruction", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\lenovo-Loq\Downloads\README.md = ..\..\..\Users\lenovo-Loq\Downloads\README.md
+		..\..\..\Users\lenovo-Loq\OneDrive\Desktop\SalesPostingDB.sql = ..\..\..\Users\lenovo-Loq\OneDrive\Desktop\SalesPostingDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7093551B-C02F-479A-9EA1-F5DEB7584C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7093551B-C02F-479A-9EA1-F5DEB7584C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7093551B-C02F-479A-9EA1-F5DEB7584C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7093551B-C02F-479A-9EA1-F5DEB7584C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124079B2-AB80-41BC-A3E6-4216D5BF221D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124079B2-AB80-41BC-A3E6-4216D5BF221D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124079B2-AB80-41BC-A3E6-4216D5BF221D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124079B2-AB80-41BC-A3E6-4216D5BF221D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53B0348-746A-45F5-BD57-1AB8DF7F3BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53B0348-746A-45F5-BD57-1AB8DF7F3BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53B0348-746A-45F5-BD57-1AB8DF7F3BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53B0348-746A-45F5-BD57-1AB8DF7F3BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A64191-0F05-465B-934F-DAE388CCA620}
+	EndGlobalSection
+EndGlobal
